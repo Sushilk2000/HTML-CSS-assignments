@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: inline-block;
+    background:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,.9),rgba(0,0,0,.8),rgba(0,0,0,.7));
+    padding: 2%;
+    width: 100vw;
+}
+.navpage {
+display: inline-block;
+color: white;
+margin-inline:70px;
+font-weight: 500;
+}
+.open{
+    background-color: white;
+    color: black;
+    padding: 9px 23px;
+}
+.mainimg{
+    background: url(https://e0.pxfuel.com/wallpapers/850/763/desktop-wallpaper-construction-site-construction-work.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imgs {
+    display: inline-block;
+    width: 29vw;
+    height: 440px;
+    margin: 30px 25px 10px 30px;
+}
+
+p{
+    color: white;
+    display: inline-block;
+    width: 45%
+
+}
+.lastimg {
+    width: 45%;
+    margin-top: 20px;
+}
+.info {
+    padding: 2%;
+    background-color: black;
+    height: 500px;
+  }
+  p{
+    width: 45%;
+    display: inline-block;
+    color: white;
+  }
+.lastimg{
+    width: 45%;
+  }
