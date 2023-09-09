@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.mainbox{
+    margin: 50px auto auto 50px;
+    border: 1px solid red;
+    width: 40%;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    width: 95%;
+    margin: 10px auto;
+    padding:8px;
+    justify-content: center;
+}
+.buttonsandlinks{
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    border: none;
+    margin:auto;
+    margin-top: -10px;
+}
+button{
+    background-color: rgba(128, 128, 128,0.2);
+    padding: 6px 4px 4px 4px;
+    border: 1px solid red;
+}
+a{
+    border: 1px solid red;
+    padding: 6px 6px;
+    background-color: rgba(128, 128, 128,0.2);
+}
+.mainnested{
+    padding: 0;
+    margin-left: -8px;
+    padding-right: 25px;
+    width: 40vw;
+    flex-direction: row;
+    border: none;
+}
+.dot{
+    width: 100%;
+    padding: 0;
+    border: none;
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.nestedbox{
+    flex:28;
+    padding: 0;
+    margin-left: 4px;
+}
+.bullet{
+
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.nestedbox > div{
+  margin: 0 auto;
+}
