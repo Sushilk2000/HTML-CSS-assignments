@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(202,244,241); ;
+}
+.left{
+    display: flex;
+    width: 20%;
+    background-color: rgb(233,251,249);
+    border-radius: 20px;
+    flex-direction: column;
+}
+.right{
+    display: flex;
+    width: 80%;
+    background-color:rgb(202,244,241); 
+    padding: 5% 10%;
+    flex-direction: column;
+    
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    gap: 2px;
+}
+.profile > img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.social{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+}
+.social > img {
+    width: 30%;
+    height: 30%;
+}
+.social > h4{
+    font-size: 20px;
+}
+.promo{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 30%;
+}
+.pr{
+    display: flex;
+    width: 80%;
+    height: 50%;
+    background:linear-gradient(rgb(118,191,167),rgb(129,203,202));
+    border-radius: 30px;
+
+}
+.pr p {
+    display: flex;
+    font-size: 22px;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 25px;
+    color: white;
+    font-weight: 600;
+}
+.pr img {
+    width: 50%;
+    height: 100%;
+    padding-right: 25px;
+}
+.topright{
+    height: 20%;
+    width: 100%;
+}
+.topright h1 {
+    font-size: 48px;
+}
+.topright .slot{
+    height: 20%;
+    width: 35%;
+    background-color: white;
+    border-radius:50px
+}
+.bottomright{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    justify-content: space-between;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    padding:  3% 5%;
+    width: 100%;
+    height: 30%;
+    background-color: rgb(231,248,246);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.2);
+
+    }
+.card img {
+    border-radius: 25%;
+}
+.title h2 {
+    font-size: 30px;
+}
+.title p {
+    margin-top: 4px;
+    font-size: 20px;
+}
+.title .slot {
+
+    background-color:rgb(146,231,213);
+    height: 22%;
+    border-radius: 100px;
+}
+.card > p{
+    padding-top: 0.7%;
+    font-size: 24px;
+    font-weight: 600;
+}
