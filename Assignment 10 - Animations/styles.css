@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+div {
+    display: flex;
+    align-items: center;
+    height: 50%;
+    width: 75%;
+}
+img {
+    height: 100%;
+    width: 32%;
+    transform-origin: center;
+    transform: perspective(50rem) rotateY(20deg);
+    transition: 0.5s;
+    box-shadow: 0 0 0.5rem gray;
+    border-radius: 4%;
+}
+div:hover img{
+    opacity: 0.3;
+}
+div img:hover{
+    transform: perspective(50rem) rotateY(0);
+    opacity: 1;
+}
