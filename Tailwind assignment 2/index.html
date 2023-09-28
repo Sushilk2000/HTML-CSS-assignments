@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/d521bbec8a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="flex items-center h-screen w-screen justify-center">
+    <div
+      class="w-5/6 h-3/4 bg-black bg-gradient-to-t from-black to-black to-65% from-white from-65% h-card w-card shadow-xl"
+    >
+      <div class="flex pt-12 px-12 h-4/5">
+        <img
+          src="./assets/photo-1514989940723-e8e51635b782.jpg"
+          class="w-2/6 h-full shadow-green object-cover"
+          alt="shoe"
+        />
+        <div class="flex flex-col justify-between ml-20 grow">
+          <div>
+            <h1 class="text-5xl font-medium text-[white]">Retro Shoe</h1>
+            <h2 class="mt-4 text-3xl font-medium text-white">
+              $89.00
+              <span class="ml-2 font-extralight color-stock text-4xl"
+                >IN STOCK</span
+              >
+            </h2>
+          </div>
+          <div class="flex mt-20 gap-x-8">
+            <a
+              class="grid p-2 text-3xl font-thin text-[white] bg-black shadow-green-small w-14 h-14 place-content-center"
+              href="#"
+              >XS</a
+            >
+            <a
+              href="#"
+              class="grid p-2 text-3xl font-thin duration-300 w-14 h-14 place-content-center hover:text-[white] hover:bg-black hover1"
+              >S</a
+            >
+            <a
+              href="#"
+              class="grid p-2 text-3xl font-thin duration-300 w-14 h-14 place-content-center hover:text-[white] hover:bg-black hover1"
+              >M</a
+            >
+            <a
+              href="#"
+              class="grid p-2 text-3xl font-thin duration-300 w-14 h-14 place-content-center hover:text-[white] hover:bg-black hover1"
+              >L</a
+            >
+            <a
+              href="#"
+              class="grid p-2 text-3xl font-thin duration-300 w-14 h-14 place-content-center hover:text-[white] hover:bg-black hover1"
+              >XL</a
+            >
+          </div>
+          <div class="flex justify-around items-center">
+            <div class="flex justify-between mt-4 gap-x-10">
+              <button
+                class="px-8 py-4 text-2xl font-bold duration-300 border-4 border-black bg-color-stock hover:bg-black hover:text-white"
+              >
+                BUY NOW
+              </button>
+              <button
+                class="px-8 py-4 text-2xl font-bold duration-300 border-4 border-black hover:bg-slate-100"
+              >
+                ADD TO BAG
+              </button>
+            </div>
+            <div class="flex items-center justify-center text-3xl grow">
+              <i
+                class="duration-300 cursor-pointer fa-solid fa-heart hover:text-red-600"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center items-center mt-10 text-right text-xl">
+        <p>Free Shipping on all continental US orders.</p>
+      </div>
+    </div>
+  </body>
+</html>
