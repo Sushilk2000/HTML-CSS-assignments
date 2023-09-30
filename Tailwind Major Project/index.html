@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The November Room</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script
+      src="https://kit.fontawesome.com/a34b7d4ec8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="./assets/download.png" />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            backgroundImage: {
+              bgi: "linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(./assets/photo-1526506118085-60ce8714f8c5.avif)",
+              girl: "url(./assets/photo-1550345332-09e3ac987658.avif)",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="antialiased">
+    <div
+      class="text-white bg-bgi bg-cover bg-top flex flex-col h-screen w-full justify-between"
+    >
+      <div
+        class="bg-transparent flex items-center justify-between px-3 md:justify-between md:px-10 w-full py-6"
+      >
+        <div class="md:text-xl fond-bold">
+          <h1>THE NOVEMBER ROOM</h1>
+        </div>
+        <div class="text-3xl mr-5 md:hidden">
+          <i class="fa-solid fa-burger"></i>
+        </div>
+        <ul
+          class="flex list-none text-xl text-orange-600 w-[8rem] items-center px-3 hidden justify-between md:flex"
+        >
+          <li>
+            <i class="fa-brands fa-facebook"></i>
+          </li>
+          <li>
+            <i class="fa-brands fa-twitter"></i>
+          </li>
+          <li>
+            <i class="fa-brands fa-linkedin"></i>
+          </li>
+        </ul>
+      </div>
+      <div class="flex justify-self-center self-center flex-col text-center">
+        <h1 class="text-bold text-white text-5xl mb-4">
+          Feel the <span class="text-orange-600">Power</span>
+        </h1>
+        <p class="text-[1.2rem]">
+          Welcome to The November Room. We are a fitness and training center
+          that focuses on<br />pushing you to your absolute limit. Download our
+          complete brochure to get started today!
+        </p>
+        <button
+          class="border-orange-600 border-2 w-fit flex self-center text-blue-600 mt-4 px-4 py-3 text-xl rounded hover:bg-orange-600 hover:text-white ease-in-out duration-700"
+        >
+          <a href="#">Download Brochure</a>
+        </button>
+      </div>
+      <div
+        class="pointer-events-none overflow-hidden"
+        style="height: 70px; transform: translateZ(0px)"
+      >
+        <svg
+          class="absolute bottom-0 overflow-hidden"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none"
+          version="1.1"
+          viewBox="0 0 2560 100"
+          x="0"
+          y="0"
+        >
+          <polygon points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+    </div>
+    <div class="bg-black h-screen py-14 px-32">
+      <div class="flex justify-between items-center h-full ">
+        <img
+          src="./assets/photo-1550345332-09e3ac987658.avif"
+          class="h-full aos-init"
+          data-aos="flip-left"
+          alt="the girl"
+        />
+        <div class="text-white w-3/6 aos-init"
+        data-aos="fade-left">
+          <h6 class="text-orange-600">About our gym</h6>
+          <h2 class="text-4xl font-medium mb-4">SAFE BODY BUILDING</h2>
+          <p class="text-xl">
+            The extension comes with three pre-built pages to help you get
+            started faster. You can change the text and images and you're good
+            to go.
+          </p>
+          <ul class="list-none flex flex-col gap-8 mt-12 text-xl">
+            <li class="flex gap-4 items-center">
+              <i class="fas fa-dumbbell fa-2x text-orange-600"></i>
+              <p>latest & gratest gym equipment</p>
+            </li>
+            <li class="flex gap-4 items-center">
+              <i class="fas fa-hard-hat fa-2x text-orange-600"></i>
+              <p>5-inch,qulity foam floor padding</p>
+            </li>
+            <li class="flex gap-4 items-center">
+              <i class="fas fa-users fa-2x text-orange-600"></i>
+              <p>3 professioonal trainers</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-col justify-between items-center pt-10 text-center">
+      <div class="w-3/6 flex flex-col items-center gap-8">
+        <h2 class="font-medium text-4xl text-gray-700 mt-24">MEET OUR TRAINERS</h2>
+        <p class="text-2xl w-4/6 text-gray-600 mb-40">
+          Our trainers are are here to dedicate the time and effort that you
+          need to get in the best shape of your life
+        </p>
+      </div>
+      <div class="w-full flex justify-center items-center">
+        <div class="w-full flex flex-wrap items-center justify-around ">
+          <div class="aos-init"
+							data-aos="flip-right">
+            <img
+              src="./assets/photo-1597347343908-2937e7dcc560.avif"
+              class="max-w-full mx-auto shadow-lg rounded"
+              style="max-width: 300px"
+            />
+            <h2 class="font-bold text-xl">Mr rogers</h2>
+            <p class="text-gray-600 font-medium">NEIGHBORHOOD WATCHMAN</p>
+          </div>
+          <div class="aos-init"
+          data-aos="flip-right">
+            <img
+              src="./assets/photo-1594381898411-846e7d193883.avif"
+              class="max-w-full mx-auto shadow-lg rounded"
+              style="max-width: 300px"
+            />
+            <h2 class="font-bold text-xl">Strawberry Shortcake</h2>
+            <p class="text-gray-600 font-medium">CUPCAKE SMASHER</p>
+          </div>
+          <div class="aos-init"
+          data-aos="flip-right">
+            <img
+              src="./assets/photo-1567013127542-490d757e51fc.avif"
+              class="max-w-full mx-auto shadow-lg rounded"
+              style="max-width: 300px"
+            />
+            <h2 class="font-bold text-xl">Ronald McDonald</h2>
+            <p class="text-gray-600 font-medium">DOUBLE WHOOPASS WITH CHEESE</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="relative block pb-20 mt-32 text-white bg-black">
+
+
+      <div
+        class="absolute top-0 left-0 right-0 bottom-auto w-full -mt-20 overflow-hidden pointer-events-none h-[80px]"
+      >
+        <svg
+          class="absolute bottom-0 overflow-hidden"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none"
+          version="1.1"
+          viewBox="0 0 2560 100"
+          x="0"
+          y="0"
+        >
+          <polygon points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+      <div class="container px-4 pt-20 pb-20 mx-auto lg:pt-24 lg:pb-64">
+        <div class="flex flex-wrap justify-center text-center">
+          <div class="w-full px-4 lg:w-6/12">
+            <h2 class="text-4xl font-semibold text-white uppercase">
+              Contact Us
+            </h2>
+            <p class="mt-4 mb-4 text-lg leading-relaxed">
+              Contact us to ask any questions, acquire a membership, talk to
+              our trainers or anything else
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="relative block py-24 bg-black lg:pt-0">
+      <div class="container px-4 mx-auto">
+        <div class="flex flex-wrap justify-center -mt-48 lg:-mt-64">
+          <div class="w-full px-4 lg:w-6/12">
+            <div
+              class="relative flex flex-col w-full min-w-0 mb-6 break-words bg-gray-300 rounded-lg shadow-lg aos-init"
+              data-aos="fade-up-right"
+            >
+              <div
+                class=" flex flex-col px-12 py-12 text-white bg-orange-500 rounded gap-2"
+              >
+                <h4 class="text-4xl font-semibold">Want to work with us?</h4>
+                <p class="mt-1 mb-2 text-xl leading-relaxed">
+                  Complete this form and we will get back to you in 24 hours.
+                </p>
+                <div class="relative w-full mb-3">
+                  <label
+                    class="block mb-2 text-l font-bold uppercase"
+                    for="full-name"
+                    >Full Name</label
+                  ><input
+                    type="text"
+                    class="w-full px-3 py-3 text-l placeholder-gray-400 bg-white rounded shadow focus:outline-none focus:shadow-outline"
+                    placeholder="Full Name"
+                    style="transition: all 0.15s ease 0s"
+                  />
+                </div>
+                <div class="relative w-full mb-3">
+                  <label
+                    class="block mb-2 text-l font-bold uppercase"
+                    for="email"
+                    >Email</label
+                  ><input
+                    type="email"
+                    class="w-full px-3 py-3 text-l placeholder-gray-400 bg-white rounded shadow focus:outline-none focus:shadow-outline"
+                    placeholder="Email"
+                    style="transition: all 0.15s ease 0s"
+                  />
+                </div>
+                <div class="relative w-full mb-3">
+                  <label
+                    class="block mb-2 text-l font-bold uppercase"
+                    for="message"
+                    >Message</label
+                  ><textarea
+                    rows="4"
+                    cols="80"
+                    class="w-full px-3 py-3 text-sm placeholder-gray-400 bg-white rounded shadow focus:outline-none focus:shadow-outline"
+                    placeholder="Type a message..."
+                  ></textarea>
+                </div>
+                <div class="mt-6 text-center">
+                  <button
+                    class="px-6 py-3 mb-1 mr-1 text-l font-bold text-white uppercase bg-gray-900 rounded shadow outline-none active:bg-gray-700 hover:shadow-lg focus:outline-none"
+                    style="transition: all 0.15s ease 0s"
+                  >
+                    Send Message
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="relative pt-8 pb-6 bg-gray-300">
+			<!-- Angled Section -->
+			<div
+				class="absolute top-0 left-0 right-0 bottom-auto w-full -mt-20 overflow-hidden pointer-events-none h-[80px]"
+			>
+				<svg
+					class="absolute bottom-0 overflow-hidden"
+					xmlns="http://www.w3.org/2000/svg"
+					preserveAspectRatio="none"
+					version="1.1"
+					viewBox="0 0 2560 100"
+					x="0"
+					y="0"
+				>
+					<polygon
+						class="text-gray-300 fill-current"
+						points="2560 0 2560 100 0 100"
+					></polygon>
+				</svg>
+			</div>
+			<div class="container px-28 mx-auto">
+				<div class="flex flex-wrap">
+					<div class="w-full px-4 lg:w-6/12">
+						<h4 class="text-3xl font-semibold">Follow us on Social Media</h4>
+						<h5 class="mt-0 mb-2 text-lg text-gray-700">
+							Find us on any of these platforms, we respond 1-2 business days.
+						</h5>
+
+						<!-- Icons -->
+						<div class="flex mt-10 text-xl gap-2">
+							<button
+								class="flex items-center justify-center w-12 h-12 p-3 mr-2 font-normal text-blue-400 bg-white rounded-full shadow-lg outline-none focus:outline-none"
+							>
+								<i class="fab fa-twitter"></i></button
+							><button
+								class="flex items-center justify-center w-12 h-12 p-3 mr-2 font-normal text-blue-600 bg-white rounded-full shadow-lg outline-none focus:outline-none"
+							>
+								<i class="fab fa-facebook-square"></i></button
+							><button
+								class="flex items-center justify-center w-12 h-12 p-3 mr-2 font-normal text-pink-400 bg-white rounded-full shadow-lg outline-none focus:outline-none"
+							>
+								<i class="fab fa-dribbble"></i></button
+							><button
+								class="flex items-center justify-center w-12 h-12 p-3 mr-2 font-normal text-gray-900 bg-white rounded-full shadow-lg outline-none focus:outline-none"
+							>
+								<i class="fab fa-github"></i>
+							</button>
+						</div>
+					</div>
+				</div>
+				<hr class="my-6 border-gray-400" />
+				<div
+					class="flex flex-wrap items-center justify-center md:justify-between"
+				>
+					<div class="w-full px-4 mx-auto text-center md:w-4/12">
+						<div class="py-1 text-sm font-semibold text-gray-600">
+							Copyright © 2020 THE NOVEMBER ROOM
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+    <script src="https://unpkg.com/aos@3.0.0-beta.6/dist/aos.js"></script>
+		<script>
+			AOS.init({
+				delay: 200,
+				duration: 1200,
+				once: false,
+			})
+		</script>
+  </main>
+
+  </body>
+</html>
